@@ -12,3 +12,7 @@ def anwenden(func, accu):
     return res
 
 print(anwenden(lambda x: x + 42, range(10)))
+
+# Oder kürzer
+res = list(map(lambda x: x + 42, range(10)))
+print(res)

@@ -17,4 +17,12 @@ def add2(res):
     return res + 2
 
 res = 1
-print(reduce(lambda accu, func: func(accu), [add1, add2], res))
+print(
+    reduce(
+        lambda accu, func: func(accu), 
+        [
+            add1, add2
+        ], 
+        res
+        )
+    )
