@@ -5,6 +5,7 @@ class Robot:
 
     def set_name(self, name):
         if name == "Hugo":
+            print("Name 'Hugo' unzulässig!")
             self.name = "Marvin"
         else:
             self.name = name
