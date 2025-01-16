@@ -1,14 +1,14 @@
-class Robot():
-    
+class Robot:
+
     def __init__(self, name):
-        self.name = name
-        
+        self.set_name(name)
+
     def set_name(self, name):
         if name == "Hugo":
-            self.name == "Marvin"
+            self.name = "Marvin"
         else:
             self.name = name
-        
+
 
 x = Robot("Marvin")
 y = Robot("Hugo")
